@@ -1,0 +1,88 @@
+ps-template-landing-web {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../imgs/Background-image-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ps-template-landing-web .main-web-content {
+    --background: transparent;
+}
+
+ps-template-landing-web .ps-complex-menu-reach_container_complex_base_container_body_container_body_row {
+    justify-content: center;
+    align-items: center;
+}
+
+ps-template-landing-web .page-content {
+    margin-top: var(--ps-section-padding);
+    margin-bottom: var(--ps-section-padding);
+}
+
+ps-template-landing-web .left-section {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-flow: column;
+    /* background-color: hsla(var(--ps-primary-degree-1-color), 0.5); */
+}
+
+ps-template-landing-web .left-section .main-header,
+ps-template-landing-web .main-section .home-banners,
+ps-template-landing-web .main-section .home-banners * {
+    height: 15vh;
+    border-radius: var(--ps-section-border-radius) !important;
+}
+
+.main-web-content>.container-fluid {
+    padding: var(--ps-section-padding) !important;
+}
+
+.main-web-content>.container-fluid>.row {
+    width: 100% !important;
+    margin: auto !important;
+}
+
+ps-template-landing-web .main-section,
+ps-template-landing-web .left-section {
+    padding-inline-end: var(--ps-section-padding) !important;
+}
+
+ps-template-landing-web .right-section {
+    border-radius: var(--ps-section-border-radius);
+    overflow-y: scroll !important;
+    height: calc(100vh - (2 * var(--ps-section-padding)));
+}
+
+/* ps-template-landing-web .main-section ion-router-outlet ion-content {
+    background: var(--ps-app-opaque-background-color) !important;
+    border-radius: var(--ps-section-border-radius) !important;
+}
+ */
+
+ps-template-landing-web .main-section .main-content {
+    border-radius: var(--ps-section-border-radius);
+    overflow-y: auto;
+    margin-top: var(--ps-section-padding);
+}
+
+ps-template-landing-web .main-section .main-section-row {
+    height: auto !important;
+}
+
+#temp_web_prayer_panel ps-complex-prayer-time {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#temp_web_prayer_panel ps-complex-prayer-time .countdown {
+    font-size: 0.625em;
+}

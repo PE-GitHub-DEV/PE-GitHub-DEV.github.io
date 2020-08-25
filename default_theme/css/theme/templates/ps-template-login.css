@@ -1,0 +1,61 @@
+ps-template-login .main-header {
+    display: none !important;
+}
+
+ps-template-login #ps-container-login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+ps-template-login .main-content {
+    height: 100vh !important;
+}
+
+ps-template-login .ps-template-login-card {
+    overflow: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto !important;
+    position: absolute;
+    border-radius: 0px;
+    box-shadow: 0 11px 15px -7px rgba(255, 255, 255, .2), 0 24px 38px 3px rgba(255, 255, 255, .14), 0 9px 46px 8px rgba(255, 255, 255, .12) !important;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ps-template-login .bank-logo {
+    width: 80% !important;
+    background-image: url(../../../imgs/BankLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vh;
+    background-position: center;
+}
+
+.ps-template-login-card-flex>div {
+    margin-top: 0.5rem;
+    width: 80%;
+    outline: none !important;
+}
+
+.ps-template-login-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ps-template-login-card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ps-template-login .ps-template-login-banners {
+    width: 100% !important;
+    margin-top: 0 !important;
+    display: none;
+}

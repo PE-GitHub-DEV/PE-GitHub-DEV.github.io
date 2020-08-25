@@ -1,0 +1,12 @@
+ps-container-form .ps-container-form-content {
+    padding-left: calc(var(--ps-form-container-padding) * var(--ps-form-container-padding-ratio) * var(--ps-form-container-padding-ratio-initial)) !important;
+    padding-right: calc(var(--ps-form-container-padding) * var(--ps-form-container-padding-ratio) * var(--ps-form-container-padding-ratio-initial)) !important;
+    background: var(--ps-form-container-background-color) !important;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto !important;
+}
+
+ps-container-form .ps-container-form-content-wrapper {
+    height: 100%;
+}

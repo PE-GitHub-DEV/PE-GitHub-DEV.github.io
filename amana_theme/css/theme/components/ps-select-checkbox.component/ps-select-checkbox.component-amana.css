@@ -1,0 +1,10 @@
+ps-select-checkbox ion-checkbox {
+    --background-checked: var(--ps-highlight-background-color) !important;
+    --checkmark-color: transparent !important;
+    --border-radius: 50% !important;
+
+}
+
+ps-select-checkbox ion-item {
+    --background-activated: none !important;
+}

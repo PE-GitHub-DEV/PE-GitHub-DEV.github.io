@@ -1,0 +1,35 @@
+/* ps-form-map * {
+    height: 100%;
+} */
+
+ps-form-map .ps-form-map {
+    height: 100%;
+}
+
+ps-form-map .ps-map-legend {
+    background: #ffffffb5;
+    padding: 5px;
+}
+
+ps-form-map .ps-map-legend .legend-title {
+    font-size: var(--ps-md-font) !important;
+    display: none;
+}
+
+ps-form-map * {
+    font-size: var(--ps-md-font) !important;
+}
+
+ps-form-map .legend-wrapper {
+    width: 5em;
+}
+
+ps-form-map .legend-wrapper,
+ps-form-map .legend-item {
+    height: auto !important;
+}
+
+ps-form-map .legend-item .legend-item-icon img {
+    height: 1em;
+    width: 1em;
+}

@@ -1,0 +1,11 @@
+ps-template-screen .widget-menu-icon {
+    background-color: transparent !important;
+}
+
+ps-template-screen .widget-menu-icon .menu-icon ion-icon {
+    color: #fffffff0 !important;
+}
+
+ps-template-screen .widget-style {
+    background: rgb(47,30,79) !important;
+}

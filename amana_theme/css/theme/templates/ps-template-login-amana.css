@@ -1,0 +1,98 @@
+ps-template-login .ps-template-login-links {
+    display: none !important;
+}
+
+ps-template-login .ps-template-login-submit {
+    width: 50% !important;
+    margin: auto;
+}
+
+
+ps-template-login .ps-template-login-logo {
+    order: 1;
+}
+
+
+ps-template-login .additional-links {
+    order: 6;
+}
+
+ps-template-login #ps-container-login-form {
+    order: 3;
+}
+
+ps-template-login .additional-links .ps-action-icon-icon,
+ps-template-login .ps-template-login-help .ps-action-icon-icon {
+    display: none;
+}
+
+ps-template-login .additional-links .ps-action-anchor,
+ps-template-login .ps-template-login-help .ps-action-anchor {
+    border-radius: 0px !important;
+}
+
+ps-template-login .additional-links .ps-action-icon-label,
+ps-template-login .ps-template-login-help .ps-action-icon-label {
+    border-bottom: 2px solid var(--ps-primary-degree-1-color) !important;
+}
+
+
+ps-template-login ps-input-username .ps-keyin-input-label,
+ps-template-login ps-input-password .ps-keyin-input-label {
+    display: none;
+}
+
+ps-template-login ps-input-username .ps-keyin-input,
+ps-template-login ps-input-password .ps-keyin-input {
+    display: flex;
+}
+
+ps-template-login .bank-logo {
+    background-image: url(../../../imgs/BankLogo.png);
+}
+
+
+ps-template-login .ps-template-login-username {
+    order: 1;
+}
+
+ps-template-login .ps-template-login-password {
+    order: 2;
+}
+
+
+ps-template-login .ps-template-login-help {
+    order: 3;
+    font-size: 0.7em;
+}
+
+
+
+ps-template-login .ps-template-login-rememberMe {
+    order: 4;
+}
+
+
+
+ps-template-login .ps-template-login-submit {
+    order: 5;
+}
+
+
+ps-template-login .additional-links {
+    order: 6;
+}
+
+ps-template-login .ps-template-login-help ps-action-hyperlink .ps-action-image-row {
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+ps-template-login .ps-template-login-rememberMe .ps-select-toggle-item {
+    padding-bottom: 20px;
+}
+
+
+ps-template-login ps-template-base .main-content {
+    margin-bottom: 0px !important;
+}

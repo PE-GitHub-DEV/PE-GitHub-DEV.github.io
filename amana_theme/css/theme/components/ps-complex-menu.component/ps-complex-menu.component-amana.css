@@ -1,0 +1,11 @@
+ps-complex-menu .ps-complex-menu-widget-container {
+    height: 100%;
+    overflow: hidden !important;
+    overflow-y: unset !important;
+    padding-bottom: 10px;
+}
+
+.opened-screen-title {
+    background-color: #240d39;
+    z-index: 5;
+}

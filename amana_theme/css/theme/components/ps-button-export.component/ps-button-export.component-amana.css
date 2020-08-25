@@ -1,0 +1,8 @@
+.ps-button-export {
+    --background: #412e77ab;
+    --border-color: #412e77ab;
+}
+
+.ps-button-export ps-action-icon .ps-action-icon-icon {
+    display: none;
+}

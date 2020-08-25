@@ -1,0 +1,45 @@
+ps-template-base>*,
+ps-template-base>.container-fluid {
+    display: block !important;
+    height: auto !important;
+}
+
+ps-template-base .main-header {
+    padding: 0px !important;
+    background: var(--ps-app-opaque-background-color) !important;
+    border-radius: var(--ps-section-border-radius) !important;
+}
+
+ps-template-base .main-content {
+    padding-top: var(--ps-section-padding) !important;
+    margin-bottom: calc(var(--ps-section-padding)) !important;
+}
+
+.isMobile-Layout ps-template-base .template-base-row,
+.isWeb-Layout.userIsNotLoggedIn ps-template-base .template-base-row {
+    /* background: white; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /*     background-image: url(../../../imgs/Background-image.jpg) !important;*/
+    /* --padding-end: var(--ps-section-padding);
+    --padding-start: var(--ps-section-padding);
+    --padding-top: var(--ps-section-padding);
+    --padding-bottom: var(--ps-section-padding); */
+}
+
+.isWeb-Layout.userIsNotLoggedIn ps-template-base .main-content {
+    --padding-end: var(--ps-section-padding);
+    --padding-start: var(--ps-section-padding);
+    --padding-top: var(--ps-section-padding);
+    --padding-bottom: var(--ps-section-padding);
+}
+
+ps-template-base .main-footer {
+    padding-left: var(--ps-section-padding) !important;
+    padding-right: var(--ps-section-padding) !important;
+}
+
+ps-template-base .trigger-disable-field {
+    opacity: 0.1;
+    pointer-events: none;
+}

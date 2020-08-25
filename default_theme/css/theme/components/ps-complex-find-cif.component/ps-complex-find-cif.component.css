@@ -1,0 +1,107 @@
+ps-complex-find-cif ps-keyin-input ion-item {
+    margin-top: 5px !important;
+    /* remove inital margin (22px) */
+    font-size: var(--ps-md-font) !important;
+    zoom: 0.8;
+    border-radius: var(--ps-button-border-radius) !important;
+    /* --border-radius: var(--ps-button-border-radius) !important; */
+}
+
+ps-complex-find-cif .ps-complex-find-CIF.row_container_complex_base_container_body_container_body_row {
+    margin-left: 15px;
+}
+
+ps-complex-find-cif ion-item {
+    --min-height: 30px !important;
+    margin-left: 15px !important;
+}
+
+ps-complex-find-cif ps-container-item .item ion-input {
+    font-size: var(--ps-md-font) !important;
+    color: white !important;
+}
+
+
+
+/* remove background & border */
+ps-complex-find-cif ps-container-item .item {
+    --background: none !important;
+    border-radius: 0px !important;
+    border-bottom: white 1px solid !important;
+
+}
+ps-complex-find-cif ps-container-item .item:not(.item-has-focus) {
+    border-bottom: white 1px solid !important;
+}
+
+/* input placeholder color no working */
+ps-complex-find-cif ps-container-item ion-input ::placeholder {
+    color: var(--ps-font-light-color) !important;
+}
+
+ps-complex-find-cif ps-container-item ion-input  {
+    color: white !important;
+}
+
+/* remove label */
+ps-complex-find-cif ion-item ps-label {
+    display: none !important;
+}
+/* reset button */
+ion-button.ps-find-CIF-reset {
+    border-radius: 50%;
+    height: calc(80px * var(--ps-font-size-ratio) * var(--ps-font-size-ratio-initial)) !important;
+    width: calc(80px * var(--ps-font-size-ratio) * var(--ps-font-size-ratio-initial)) !important;
+    background-color: var(--ps-highlight-background-color) !important;
+    --background-hover: var(--ps-primary-color) !important;    
+}  
+/* search button */
+
+ion-button.ps-find-CIF-search {
+    border-radius: 50%;
+    height: calc(80px * var(--ps-font-size-ratio) * var(--ps-font-size-ratio-initial)) !important;
+    width: calc(80px * var(--ps-font-size-ratio) * var(--ps-font-size-ratio-initial)) !important;
+    background-color: var(--ps-highlight-background-color) !important;
+    --background-hover: var(--ps-primary-color) !important; 
+    
+}
+
+ion-button.ps-find-CIF-reset ion-icon {
+    height: 50px !important;
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-xl-font) !important;
+}
+
+ion-button.ps-find-CIF-search ion-icon {
+    height: 50px !important;
+    color: var(--ps-font-light-color) !important;
+    font-size: var(--ps-xl-font) !important;
+}
+.ps-find-CIF-search ion-button .ps-action-image-container .ps-action-icon-icon {
+    margin-inline-end: 0px !important;
+}
+ps-complex-find-cif ps-action-button ion-button {
+    --border-style: none !important;
+    --box-shadow: none !important;
+}
+ps-complex-find-cif ps-action-button ion-button .ps-action-icon-icon{
+ margin-inline-end:0px !important;
+}
+ps-complex-find-cif ion-button ps-action-icon .ps-action-image-container .ps-action-icon-icon, ps-complex-find-cif ion-button ps-action-icon .ps-action-image-container .ps-action-icon-label {
+    -webkit-box-flex: 0 !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+ /* .complex-flip-base{
+    position: absolute !important;
+    height: 100% !important;
+    margin-top:5% !important;
+
+}  */
+
+
+ps-complex-find-cif .validation-message {
+    background: transparent;
+    font-size: var(--ps-sm-font) !important;
+    
+}

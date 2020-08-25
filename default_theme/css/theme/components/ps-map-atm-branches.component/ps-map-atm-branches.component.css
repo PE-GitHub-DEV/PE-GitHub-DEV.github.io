@@ -1,0 +1,25 @@
+/* ps-map-atm-branches,
+ps-map-atm-branches .ps-map-map-section {
+    height: 100%;
+} */
+
+ps-map-atm-branches {
+    height: 100%;
+    width: 100%;
+}
+
+.mapAtmBranchModal .modal-close-icon-container {
+    height: auto !important;
+}
+
+.mapAtmBranchModal .modal-close-icon-row {
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+}
+
+.mapAtmBranchModal .modal-close-icon ion-icon {
+    color: white;
+    background: var(--ps-highlight-background-color);
+    padding: 10px;
+    border-radius: 50%;
+}

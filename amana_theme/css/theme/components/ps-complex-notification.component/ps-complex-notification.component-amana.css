@@ -1,0 +1,22 @@
+ps-complex-notification ps-container-item .item:not(.item-has-focus) {
+    background: rgb(28, 9, 45) !important;
+    --background: rgb(28, 9, 45) !important;
+    opacity: 0.9;
+}
+
+ps-complex-notification ps-hyperlink-anchor .ps-anchor-panel-image {
+    display: none;
+}
+
+ps-complex-notification .ps-complex-notification-date-label {
+    opacity: 0.5;
+    font-size: var(--ps-sm-font)
+}
+
+ps-complex-notification .ps-complex-notification-divider-label{
+    opacity: 0.5;
+    font-size: var(--ps-sm-font)
+}
+ps-complex-notification ps-label.description{
+    font-size: var(--ps-sm-font)
+}

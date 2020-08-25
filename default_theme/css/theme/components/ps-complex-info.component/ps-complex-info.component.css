@@ -1,0 +1,77 @@
+ps-complex-info {
+    height: 100%;
+}
+
+ps-complex-info ps-action-button ion-button {
+    --border-style: none !important;
+    --box-shadow: none !important;
+}
+
+ps-complex-info .ps-complex-info-container-list {
+    width: 100% !important;
+}
+
+ps-complex-info .ps-container-list {
+    display: flex;
+    width: 100% !important;
+    background: var(--ps-app-opaque-background-color);
+    border-radius: var(--ps-section-border-radius) !important;
+    overflow: hidden;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0px !important;
+    flex-wrap: wrap;
+}
+
+ps-complex-info .ps-info-animation {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+ps-complex-info .ps-container-list ion-item {
+    margin: 0px !important;
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+    padding: 10px;
+    background: none !important;
+    --background: none !important;
+    /* border-radius: var(--ps-section-border-radius) !important;
+    --border-radius: var(--ps-section-border-radius) !important; */
+    border-bottom: 5px solid var(--ps-highlight-background-color) !important;
+    --border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+ps-complex-info .ps-anchor-panel-image {
+    -webkit-box-flex: 0 !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 0px 0px 0px !important; */
+}
+
+ps-complex-info .ps-anchor-panel-data {
+    -webkit-box-flex: 0 !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+}
+
+ps-complex-info ps-hyperlink-anchor {
+    padding-top: 0px !important;
+}
+
+ps-complex-info ps-hyperlink-anchor .ps-anchor-panel-data ion-label {
+    white-space: normal !important;
+    text-align: center !important;
+}

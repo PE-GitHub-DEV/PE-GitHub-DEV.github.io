@@ -1,0 +1,36 @@
+:root {
+    --ps-button-border-radius: 10px;
+    --ps-button-border-width: 0px;
+
+    --ps-button-submit-background-color: #3f334a;
+
+    --ps-button-cancel-background-color: #ffffffab;
+}
+
+ps-action-button ion-button ps-action-icon .ps-action-image-container {
+    padding: 0px !important;
+}
+
+.ps-button-back ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+.ps-button-next ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+.ps-button-submit ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+.ps-button-cancel ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+ps-button-previous ps-action-icon .ps-action-icon-icon {
+    display: none;
+}
+
+ps-button-save ps-action-icon .ps-action-icon-icon {
+    display: none;
+}

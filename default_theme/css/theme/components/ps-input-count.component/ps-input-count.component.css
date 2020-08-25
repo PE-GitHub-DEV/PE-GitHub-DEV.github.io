@@ -1,0 +1,38 @@
+ ps-input-count .count-span {
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     margin-top:6px;
+ }
+
+ ps-input-count .increment-decrement-arrows {
+     font-size: var(--ps-xxl-font);
+     color: var(--ps-highlight-background-color);
+ }
+
+ ps-input-count .count-span ion-item {
+     border-bottom-left-radius: 0px !important;
+     border-top-left-radius: 0px !important;
+     --inner-padding-end: 0px !important;
+ }
+
+ ps-input-count .count-span ps-action-icon {
+     display: flex;
+ }
+
+ ps-input-count .count-span ion-icon {
+     font-size: 1.2em;
+ }
+
+ ps-input-count .main-container .ps-container-item-main-content .ps-container-item-img-icon {
+     display: none
+ }
+
+ ps-input-count .main-container .ps-container-item-main-content ps-container-item .item {
+     border-radius: 0px !important;
+ }
+
+ ps-input-count ps-keyin-input ps-container-item .item {
+     margin: 0px;
+ }

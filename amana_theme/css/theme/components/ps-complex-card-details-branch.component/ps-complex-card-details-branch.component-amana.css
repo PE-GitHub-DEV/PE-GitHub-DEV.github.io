@@ -1,0 +1,5 @@
+ion-modal ps-complex-card-details-branch .ps-complex-card-details-branch-item-label {
+    -webkit-box-flex: 0;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}

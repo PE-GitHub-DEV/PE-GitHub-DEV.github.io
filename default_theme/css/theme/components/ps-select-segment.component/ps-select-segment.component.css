@@ -1,0 +1,82 @@
+/* ps-select-segment .segment-button-checked {
+  color: var(--ps-highlight-background-color) !important;
+  border-bottom: 1px solid var(--ps-highlight-background-color) !important;
+  font-weight: bold;
+  --color-checked: none;
+}
+
+ps-select-segment .ps-segment-button-wrapper {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.ps-select-segment {
+  color: var(--ps-primary-color);
+  font-size: var(--ps-md-font);
+}
+
+.segment-seperator {
+  height: 60% !important;
+  width: 2px;
+  background: var(--ps-primary-color);
+  margin-inline-start: 3px;
+} */
+
+ps-select-segment .ps-segment-button-wrapper {}
+
+ps-select-segment ion-item {
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+}
+
+ps-select-segment ion-segment {
+  margin: 0px !important;
+  height: auto !important;
+}
+
+ps-select-segment .ps-item-segment .container-fluid,
+ps-select-segment .ps-item-segment .row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+ps-select-segment .ps-select-segment {
+  color: var(--ps-highlight-background-color);
+  font-size: var(--ps-md-font);
+  --border-style: none !important;
+  height: 100% !important;
+  /* background-color: var(--ps-app-background-color); */
+}
+
+ps-select-segment .segment-button-checked {
+  /* color: var(--ps-highlight-background-color) !important; */
+  background: var(--ps-highlight-background-color) !important;
+  border-bottom: 1px solid var(--ps-highlight-background-color) !important;
+  font-weight: bold;
+  --color-checked: none;
+  color: var(--ps-app-background-color);
+}
+
+ps-select-segment ps-container-item ion-item,
+ps-select-segment ps-container-item .item {
+  height: 45px !important;
+  min-height: 45px !important;
+  margin: 0px !important;
+  --background: none !important;
+  background: none !important;
+}
+
+ps-select-segment ion-segment-button {
+  height: 25px !important;
+  min-height: 25px !important;
+}
+
+ps-select-segment ion-segment-button>* {
+  display: inline-grid !important;
+}
+
+
+ps-select-segment ion-segment-button:not(.segment-button-checked) {
+  opacity: 0.4;
+}

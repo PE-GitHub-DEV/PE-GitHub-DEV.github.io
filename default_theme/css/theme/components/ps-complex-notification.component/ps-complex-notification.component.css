@@ -1,0 +1,62 @@
+ps-complex-notification .ps-complex-notification {
+    width: 100%;
+}
+
+ps-complex-notification .ps-notification-item {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+ps-complex-notification .ps-complex-notification-divider-label {
+    color: white;
+}
+
+ps-complex-notification ion-list {
+    background: none !important;
+}
+
+ps-complex-notification .unseen-notification ion-item {
+    --background: var(--ps-highlight-background-color) !important;
+    --border-radius: var(--ps-fields-border-radius) !important;
+}
+
+ps-complex-notification .anchor-title {
+    font-weight: bold;
+}
+
+ps-complex-notification .ps-complex-notification-date-label {
+    font-size: var(--ps-sm-font) !important;
+}
+
+ps-complex-notification ps-container-item .item {
+    margin-top: 0.2em;
+}
+
+ps-complex-notification ps-container-item .item:not(.item-has-focus) {
+    border-bottom: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 5px;
+    background: var(--ps-highlight-background-color) !important;
+    --background: var(--ps-highlight-background-color) !important;
+    margin-top: 0.5em !important;
+}
+
+/* ps-complex-notification .ps-complex-notification-loadmoreButton {
+    --background: var(--ps-select-placeholder);
+    --background-focused: var(--ps-select-placeholder);
+    --background-hover: #ed8931;
+    --color: var(--ps-app-background-color) !important;
+    --color-hover: var(--ps-app-background-color);
+}
+
+ps-complex-notification .ps-complex-notification-loadmoreButton .ps-default-button {
+    --border-radius: 0% !important;
+    --border-style: none !important;
+} */

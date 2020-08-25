@@ -1,0 +1,38 @@
+omni-login ion-content main {
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+}
+
+
+omni-login ps-action-hyperlink ion-icon,
+omni-login ps-action-hyperlink ion-label,
+omni-login ps-action-hyperlink .ps-action-icon-icon ion-icon {
+    color: var(--ps-highlight-background-color) !important;
+    cursor: pointer;
+    display: flex !important;
+    padding: 5px !important;
+}
+
+omni-login ps-select-toggle ps-label-input {
+    order: 2;
+}
+
+omni-login ps-select-toggle ion-toggle {
+    order: 1;
+}
+
+omni-login .ps-action-anchor {
+    display: block;
+    margin-top: 10px !important;
+    background: var(--ps-primary-degree-1-color) !important;
+    border-radius: 50px;
+    padding-inline-start: 5px;
+}
+
+omni-login .bank-name {
+    order: 10;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    color: white;
+}

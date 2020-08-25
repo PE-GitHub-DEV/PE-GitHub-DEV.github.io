@@ -1,0 +1,50 @@
+.ps-container-lookup-option-details .mat-card {
+    background-color: rgb(28, 9, 45);
+}
+
+.ps-container-lookup-option-details ps-keyin-input ps-container-item .item {
+    /* background: transparent !important;
+    --background: transparent !important; */
+    margin: 0px;
+    border-radius: 5px !important;
+    animation: flipInX 1s forwards;
+    -webkit-animation: flipInX 1s forwards;
+}
+
+
+.ps-container-lookup-option-details .lookup-details-header {
+    background: none !important;
+}
+
+.ps-container-lookup-option-details .ps-balance .current-balance-div {
+    background: unset;
+    border-right: 0px;
+}
+
+.ps-container-lookup-option-details .ps-balance .available-balance-div {
+    background-color: unset !important;
+}
+
+ps-container-lookup-option mat-card-title ps-action-image {
+    display: none;
+}
+
+
+ps-container-lookup-option .show-more-less-button-card {
+    text-align: end;
+    background-color: #1c092d;
+}
+
+.show-more-less-icon {
+    background: none !important;
+}
+
+.show-more-less-icon {
+    background: none !important;
+}
+
+
+ps-container-lookup-option .show-more-less-button-card.expanded {
+    text-align: end;
+    background-color: transparent !important;
+}

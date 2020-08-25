@@ -1,0 +1,15 @@
+.isWeb-Layout.userIsNotLoggedIn body {
+    background-image: url(../imgs/Background-image-web.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.isMobile-Layout body {
+    background-image: url(../imgs/Background-image.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* ::-webkit-scrollbar {
+    width: 1px !important;
+} */

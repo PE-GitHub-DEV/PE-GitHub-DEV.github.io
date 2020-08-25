@@ -1,0 +1,35 @@
+ps-template-landing-main .opened-screen-title.row {
+    height: 10% !important;
+    font-weight: bold;
+    font-size: var(--ps-xl-font);
+    border-bottom: 1px solid;
+    color: white !important;
+    border-color: white;
+    margin: 0px !important;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /* background-color: var(--ps-secondary-color); */
+}
+
+ps-template-landing-main .opened-screen-title .back-button,
+ps-template-landing-main .opened-screen-title .current-opened-page {
+    display: flex;
+    align-items: center;
+
+}
+
+ps-template-landing-main .opened-screen-title .current-opened-page .ps-action-image-row {
+    align-items: center;
+}
+
+ps-template-landing-main .opened-screen-title .current-opened-page .ps-action-icon-icon ion-icon {
+    font-size: var(--ps-leaf-font-size);
+}
+
+ps-template-landing-main .opened-screen-title+* {
+    height: calc(90% - var(--ps-section-padding)) !important;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+}

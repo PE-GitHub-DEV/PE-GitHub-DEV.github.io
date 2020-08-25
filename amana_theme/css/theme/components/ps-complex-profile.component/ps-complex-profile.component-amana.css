@@ -1,0 +1,28 @@
+.isMobile-Layout .ps-complex-profile {
+    background: none !important;
+}
+
+.welcome-label {
+    display: none;
+}
+
+.welcome-label-value {
+    font-weight: 600;
+}
+
+.last-login-value {
+    opacity: 0.5;
+    font-size: 9px;
+    flex: 0 0 50%;
+}
+
+.last-login-label {
+    opacity: 0.5;
+    font-size: 9px;
+    flex: 0 0 50%;
+}
+
+ps-label-user-last-login {
+    display: flex;
+    margin-top: 20px;
+}

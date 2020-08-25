@@ -1,0 +1,137 @@
+ps-complex-prayer-time .ps-container-complex {
+    padding-top: 10px;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .prayer-remaining {
+    color: var(--ps-success-color);
+    font-size: var(--ps-xl-font) !important;
+    line-height: initial;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .prayerTime {
+    color: var(--ps-lbl);
+    font-size: var(--ps-xl-font) !important;
+    line-height: initial;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .nextPrayer {
+    display: flex;
+    color: var(--ps-highlight-background-color);
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 12%; */
+}
+
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .prayer-title ion-label {
+    white-space: pre;
+    color: var(--ps-highlight-background-color);
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-header {
+    width: 100%;
+    display: flex;
+    margin: 2vw;
+    justify-content: space-between;
+    color: var(--ps-highlight-background-color);
+}
+
+ps-complex-prayer-time round-progress {
+    stroke: var(--ps-highlight-background-color);
+    background: var(--ps-app-background-color);
+    border-radius: 50%;
+    height: 35vh;
+    padding: 0px !important;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body {
+    /* height: unset !important; */
+    align-items: center;
+    justify-content: center;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .ps-complex-prayer-time-progressBar {
+    /* text-align: -webkit-center; */
+    margin-left: 0;
+    height: 35vh;
+}
+
+ps-complex-prayer-time .countdown-wrapper {
+    position: relative;
+    height: 35vh;
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .ps-complex-prayer-time-prayerTiming {
+    margin-top: .2em;
+    /*height: 90%;*/
+}
+
+ps-complex-prayer-time .ps-complex-prayer-time-body .ps-complex-prayer-time-prayerTiming .prayer-icon {
+    font-size: var(--ps-xl-font);
+}
+
+ps-complex-prayer-time .countdown {
+    color: var(--ps-font-color-opp-primary-color);
+    font-weight: 500;
+    color: var(--ps-report-header-color);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ps-complex-prayer-time .progress-bar,
+ps-complex-prayer-time .countdown {
+    position: absolute;
+    text-align: center;
+    height: 35vh !important;
+}
+
+ps-complex-prayer-time ion-item {
+    border-bottom: var(--ps-default-field-color) 1px solid;
+}
+
+ps-complex-prayer-time .selectedItem ion-item {
+    --background: var(--ps-highlight-background-color) !important;
+    color: var(--ps-font-light-color);
+}
+
+ps-complex-prayer-time .prayer-wrapper {
+    /* background: var(--ps-app-background-color) !important; */
+    border-radius: var(--ps-panel-border-radius) !important;
+    padding: 5px;
+}
+
+/* ARagab : 16-03-2020 */
+
+.ps-complex-prayer-time-prayerTiming ps-container-item .item {
+    margin-top: 0;
+    font-size: var(--ps-md-font) !important;
+}
+
+ps-complex-prayer-time .prayer-clock-icon {
+    margin: auto;
+}
+
+ps-complex-prayer-time .full-height-width {
+    width: 100%;
+    text-align: center;
+}
+
+ps-complex-prayer-time .prayer-reminder-button {
+    --background: var(--ps-highlight-background-color)
+}
+
+
+.ps-complex-prayer-time-prayerTiming ps-container-item .item {
+    background: none !important;
+    --background: none !important;
+    --inner-padding-end: 0px;
+    --inner-padding-start: 0px;
+}
+
+ps-complex-prayer-time .countdown ion-label {
+    font-size: 0.8em !important;
+}
